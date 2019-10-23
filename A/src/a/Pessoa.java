@@ -5,10 +5,7 @@
  */
 package a;
 
-/**
- *
- * @author Senai
- */
+ 
 public class Pessoa {
     
     private String nome;

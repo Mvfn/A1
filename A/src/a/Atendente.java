@@ -11,9 +11,7 @@ package a;
  */
 public class Atendente extends Pessoa {
     
-    public Atendente(String nome, String cpf, int cod) {
-        super(nome, cpf, cod);
-    }
+   
     
     private int numerodeligacoes;
 

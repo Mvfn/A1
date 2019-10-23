@@ -9,6 +9,10 @@ package a;
  *
  * @author Senai
  */
-public class Fila {
+public class Fila extends Cliente{
+    
+    public Fila(String nome, String cpf, int cod) {
+        super(nome, cpf, cod);
+    }
     
 }
