@@ -14,6 +14,28 @@ public class Pessoa {
     private String nome;
     private String cpf;
     private int cod;
+
+    public Pessoa(String nome, String cpf, int cod) {
+        this.nome = nome;
+        this.cpf = cpf;
+        this.cod = cod;
+    }
+
+    public String getCpf() {
+        return cpf;
+    }
+
+    public void setCpf(String cpf) {
+        this.cpf = cpf;
+    }
+
+    public int getCod() {
+        return cod;
+    }
+
+    public void setCod(int cod) {
+        this.cod = cod;
+    }
     
     
     
